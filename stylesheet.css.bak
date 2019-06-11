@@ -1,0 +1,137 @@
+body { margin: 0; padding: 0;}# background: #ddd;
+#font: 12px/19px Arial, Helvetica, Sans-Serif; color: #555; } 
+#page { width: 970px; margin: 0 auto 0 auto; box-shadow: 0 0 10px 5px #999;
+       background: #fff 
+url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAACRCAMAAAA1rSL4AAAAAXNSR0IArs4c6QAAAEJQTFRF6a9D5+r76Ov86ez96u3+7O/+7fD/7vL+7/P+8PT/9fX99fX/9vf89/j9+Pn9+fr++/r//Pv//fz//f3//v7/////4GArbgAAADRJREFUGNPdwQkCQCAARcGX0oKixf2v6tcxzMCPGbbV4tZdPUEjSU899CJTuHm0aqMz9J0/I4wBfeV2hp8AAAAASUVORK5CYII=") repeat-x top; }
+
+#page > a img	{ border: none; margin: 0; xwidth: 970px; xheight: 110px; }
+#page br	{ clear: both; }
+#container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    /*border: 1px solid #dddddd;*/
+    /*box-shadow: 0px 0px 5px #888888;*/
+    /*background: #cccccc;*/
+}
+
+
+#portrait {
+    float: left;
+    margin: 10px;
+    /*background: #aaaaaa;*/
+    box-shadow: 5px 5px 5px #aaaaaa;
+    /*border: 1px solid #444444;*/
+}
+
+#heading {
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+#hylogo {
+    float: right;
+}
+
+#contact {
+    float: left;
+    padding: 20px;
+    background: #ffffff;
+} 
+
+#logos {
+    margin: 20px;
+}
+#header {
+    overflow: hidden;
+    font-size: 1em;
+}
+
+.content {
+    clear: both;
+    /*background: #dddddd;*/
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.content > h2 {
+    margin-bottom: 10px;
+    color: #000000;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+#about > p {
+    margin-bottom: 0.5em;
+    text-indent: 1em;
+}
+
+.publication {
+    margin-bottom: 0.8em;
+}
+
+.publication a, .publication a:visited {
+    color: #000000;
+}
+
+.publication .conference {
+    font-size: 0.9em;
+    margin-left: 1em;
+}
+.publication .authors {
+    font-size: 0.9em;
+    margin-left: 1em;
+}
+
+.course {
+    margin-bottom: 0.8em;
+}
+
+.course .role {
+    font-size: 0.9em;
+    font-style: italic;
+    margin-left: 1em;
+}
+
+
+.degree {
+    margin-bottom: 0.8em;
+}
+
+.degree .school {
+    font-size: 0.9em;
+    margin-left: 1em;
+}
+
+#footer {
+    text-size: 0.5em;
+    text-align: center;
+    margin-top: 100px;
+}
+
+p {
+    padding: 0px;
+    margin: 2px;
+    /*background: #777777;*/
+}
+
+a, a:visited {
+    color: #000088;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.miscitem {
+    margin-bottom: 0.8em;
+}
+
+.miscitem .event {
+    font-size: 0.9em;
+    margin-left: 1em;
+}
