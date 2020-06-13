@@ -176,7 +176,8 @@ margin: 2px;
 }
 
 a, a:visited {
-color: #000088;
+color: #000000;
+font-weight:900;
 text-decoration: none;
 }
 
