@@ -175,11 +175,12 @@ margin: 2px;
 /*background: #777777;*/
 }
 
-a:link {
+a:link, a:visited {
 color: #17202A;
 font-weight:bold;
 text-decoration: none;
 }
+
 
 a:hover {
 color: ##154360;
