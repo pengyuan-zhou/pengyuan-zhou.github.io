@@ -6,7 +6,7 @@ padding: 0px;
 #container {
 margin-top: 20px;
 margin-bottom: 20px;
-max-width: 800px;
+max-width: 1000px;
 margin-left: auto;
 margin-right: auto;
 padding: 10px;
@@ -35,8 +35,8 @@ float: right;
 
 #contact {
 float: left;
-padding: 20px;
-background: #ffffff;
+padding: 5px;
+/*background: #ffffff;*/
 } 
 
 #logos {
@@ -45,6 +45,10 @@ margin-left: auto;
 margin-right: auto;
 text-align:center;
 }
+
+#section_flush_right{float: right; width: 230px; margin: 0 15 0 0;}
+
+
 .wrap{
     display:inline-block;
     position:relative;
@@ -147,14 +151,13 @@ text-indent: 1em;
 margin-bottom: 0.8em;
 }
 
-.publication a, .publication a:visited {
-color: #000000;
+.publication .item a, .publication a:visited {
+margin-left: 1em;
+text-decoration: none; 
+color: #4577d4;
+font-style:normal;
 }
 
-.publication .conference {
-    font-size: 0.9em;
-	margin-left: 1em;
-}
 .publication .authors {
 font-size: 0.9em;
 margin-left: 1em;
@@ -192,8 +195,9 @@ margin: 2px;
 /*background: #777777;*/
 }
 
+
 a:link, a:visited {
-color: #17202A;
+color: #007399;
 font-weight:500;
 font-style:italic;
 text-decoration: underline;
