@@ -28,9 +28,9 @@ html {
 }
 
 body {
-  perspective: 50rem;
+  perspective: 60rem;
   overflow: hidden;
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin: 0;
   background: #000;
@@ -44,13 +44,14 @@ body *:after {
   box-sizing: border-box;
   position: absolute;
   content: "";
+  right: 0;
   left: 0;
   top: 0;
   outline: none;
 }
 
 #wall4:checked ~ label:not([for="lightswitch"]) {
-  width: calc(100% / 13);
+  width: calc(100% / 14);
   height: calc(100% / 3);
   position: relative;
   z-index: 1;
@@ -69,15 +70,15 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(1):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(1):focus ~ z > x > y {
-  transform: rotateY(-240deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(1):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(1):focus ~ z > x {
-  transform: rotateX(10deg);
+  transform: rotateX(80deg);
 }
 #wall4:checked ~ label:nth-of-type(2):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(2):focus ~ z > x > y {
-  transform: rotateY(-230deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(2):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(2):focus ~ z > x {
@@ -85,7 +86,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(3):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(3):focus ~ z > x > y {
-  transform: rotateY(-220deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(3):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(3):focus ~ z > x {
@@ -93,7 +94,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(4):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(4):focus ~ z > x > y {
-  transform: rotateY(-210deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(4):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(4):focus ~ z > x {
@@ -101,7 +102,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(5):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(5):focus ~ z > x > y {
-  transform: rotateY(-200deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(5):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(5):focus ~ z > x {
@@ -109,7 +110,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(6):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(6):focus ~ z > x > y {
-  transform: rotateY(-190deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(6):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(6):focus ~ z > x {
@@ -117,7 +118,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(7):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(7):focus ~ z > x > y {
-  transform: rotateY(-180deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(7):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(7):focus ~ z > x {
@@ -125,7 +126,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(8):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(8):focus ~ z > x > y {
-  transform: rotateY(-170deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(8):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(8):focus ~ z > x {
@@ -133,7 +134,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(9):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(9):focus ~ z > x > y {
-  transform: rotateY(-160deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(9):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(9):focus ~ z > x {
@@ -141,7 +142,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(10):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(10):focus ~ z > x > y {
-  transform: rotateY(-150deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(10):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(10):focus ~ z > x {
@@ -149,7 +150,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(11):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(11):focus ~ z > x > y {
-  transform: rotateY(-140deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(11):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(11):focus ~ z > x {
@@ -157,7 +158,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(12):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(12):focus ~ z > x > y {
-  transform: rotateY(-130deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(12):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(12):focus ~ z > x {
@@ -165,7 +166,7 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(13):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(13):focus ~ z > x > y {
-  transform: rotateY(-120deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(13):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(13):focus ~ z > x {
@@ -173,59 +174,59 @@ body *:after {
 }
 #wall4:checked ~ label:nth-of-type(14):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(14):focus ~ z > x > y {
-  transform: rotateY(-240deg);
+  transform: rotateY(-360deg);
 }
 #wall4:checked ~ label:nth-of-type(15):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(15):focus ~ z > x > y {
-  transform: rotateY(-230deg);
+  transform: rotateY(-290deg);
 }
 #wall4:checked ~ label:nth-of-type(16):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(16):focus ~ z > x > y {
-  transform: rotateY(-220deg);
+  transform: rotateY(-160deg);
 }
 #wall4:checked ~ label:nth-of-type(17):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(17):focus ~ z > x > y {
-  transform: rotateY(-210deg);
+  transform: rotateY(-160deg);
 }
 #wall4:checked ~ label:nth-of-type(18):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(18):focus ~ z > x > y {
-  transform: rotateY(-200deg);
+  transform: rotateY(-160deg);
 }
 #wall4:checked ~ label:nth-of-type(19):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(19):focus ~ z > x > y {
-  transform: rotateY(-190deg);
+  transform: rotateY(-160deg);
 }
 #wall4:checked ~ label:nth-of-type(20):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(20):focus ~ z > x > y {
-  transform: rotateY(-180deg);
+  transform: rotateY(-160deg);
 }
 #wall4:checked ~ label:nth-of-type(21):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(21):focus ~ z > x > y {
-  transform: rotateY(-170deg);
+  transform: rotateY(-70deg);
 }
 #wall4:checked ~ label:nth-of-type(22):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(22):focus ~ z > x > y {
-  transform: rotateY(-160deg);
+  transform: rotateY(-60deg);
 }
 #wall4:checked ~ label:nth-of-type(23):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(23):focus ~ z > x > y {
-  transform: rotateY(-150deg);
+  transform: rotateY(-50deg);
 }
 #wall4:checked ~ label:nth-of-type(24):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(24):focus ~ z > x > y {
-  transform: rotateY(-140deg);
+  transform: rotateY(-40deg);
 }
 #wall4:checked ~ label:nth-of-type(25):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(25):focus ~ z > x > y {
-  transform: rotateY(-130deg);
+  transform: rotateY(-30deg);
 }
 #wall4:checked ~ label:nth-of-type(26):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(26):focus ~ z > x > y {
-  transform: rotateY(-120deg);
+  transform: rotateY(-20deg);
 }
 #wall4:checked ~ label:nth-of-type(27):hover ~ z > x > y,
 #wall4:checked ~ label:nth-of-type(27):focus ~ z > x > y {
-  transform: rotateY(-240deg);
+  transform: rotateY(-40deg);
 }
 #wall4:checked ~ label:nth-of-type(27):hover ~ z > x,
 #wall4:checked ~ label:nth-of-type(27):focus ~ z > x {
@@ -446,7 +447,7 @@ wall2 painting {
 
 wall3 painting {
   width: 110rem;
-  height: 118rem;
+  height: 108rem;
   transform: rotateY(90deg) translate3d(0, -17rem, -200rem);
 }
 
@@ -789,41 +790,32 @@ fireexit i:nth-of-type(2):after {
 <input type="checkbox" checked="checked" id="wall4" accesskey="x" />
 <label></label><label></label><label></label><label></label><label></label><label></label><label></label><label></label><label></label><label></label><label></label><label></label><label></label><label></label>
 <label class="p1hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/dBYWWZ" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label class="p1hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/dBYWWZ" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label class="p1hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/dBYWWZ" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label></label>
 <label class="p2hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/xxGYWQG" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label class="p2hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/xxGYWQG" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label class="p2hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/xxGYWQG" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label></label>
 <label class="p3hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/xMJoYO" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label class="p3hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/xMJoYO" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label class="p3hover pointer" title="Tap to zoom - double tap to view code">
-<a href="https://codepen.io/ivorjetski/pen/xMJoYO" target="_blank"></a>
 <label class="pointer"></label>
 </label>
 <label class="pointer turn" for="wall4" title="Rotate right"></label>
@@ -867,6 +859,9 @@ memory<br />
 <door>
 <a target="_blank" title="Exit" href="http://pengyuan-zhou.github.io/">
 </a>
+<p>
+EXIT<br />
+</p>
 </door>
 <label for="lightswitch" class="pointer" title="Switch"></label>
 <fireexit>
