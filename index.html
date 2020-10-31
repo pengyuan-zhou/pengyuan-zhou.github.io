@@ -23,31 +23,29 @@
 	<body onload="init();">
 		<div id="container">
     
-      		<div id="header">
+      <div id="header">
 				<img id="portrait" style= 'height: 12%; width: 12%; object-fit: contain' src="images/pengyuan.jpg" alt="Welcome" />
 				<a href="http://www.cs.helsinki.fi/"><img id="hylogo" style='height: auto; width: auto; 
 				object-fit: contain' src="pictures/hy.gif" alt="Department of Computer Science"></a>		
 				<div id="contact">
-					<p id="heading">Pengyuan Zhou</p><br>
-					<p>Postdoc Researcher</p>
+          <p id="heading">Pengyuan Zhou</p><br>
+          <p>Postdoc Researcher</p>
 					<p>Department of Computer Science</p>
 					<p>University of Helsinki</p>
-					<p>E-mail: pengyuan.zhou@helsinki.fi</p>	  
+					<p>E-mail: pengyuan.zhou@helsinki.fi</p>
+
 					<br><br><br>
 				</div><!--end id="contact"-->
 			</div><!--end id="header"-->
 
-			<!-- About me -->
-			<div class="content" id="about"><h2>About me</h2>
-				<p>I am a postdoc researcher working with Prof. <a href="http://home.cse.ust.hk/~panhui/index.html">Pan Hui</a> 
-				at the Department of Computer Science, University of Helsinki, Finland. We have extensive collaborations 
-				with <a href="http://symlab.ust.hk/people.html">SyMLab</a> in HKUST. In May 2020, I got my Ph.D. from 
-				University of Helsinki supervised by Prof. <a href="https://researchportal.helsinki.fi/en/persons/jussi-kangasharju">Jussi
-				 Kangasharju</a> in <a href="https://www.helsinki.fi/en/researchgroups/collaborative-networking">Collaborative Networking Lab</a>. 
-				 My research focuses on mobile edge computing and communication systems, connected vehicles and mixed reality offloading. 
-				 The key motivation for my research is the current trend of IoT which generates heavy demands for computational and 
-				 networking resources on the edge of the network.</p> 
-			</div><!--end id="about"-->
+		
+      <p>I am a postdoc researcher working with Prof. <a href="http://home.cse.ust.hk/~panhui/index.html">Pan Hui</a> 
+      at the Department of Computer Science, University of Helsinki, and <a href="http://symlab.ust.hk/people.html">SyMLab</a> 
+      in HKUST. <br>
+      In May 2020, I got my Ph.D. from University of Helsinki supervised by Prof. <a href="https://researchportal.helsinki.fi/en/persons/jussi-kangasharju">Jussi
+      Kangasharju</a> in <a href="https://www.helsinki.fi/en/researchgroups/collaborative-networking">Collaborative Networking Lab</a>.<br>
+      My research focuses on mobile edge computing and communication systems, connected vehicles and edge AI.<br> 
+      The key motivation is the heavy demand for computational and networking resources on the edge of the network.</p> 
       
 			<!-- Project -->
 			<div class="content" id="project"><h2>Projects</h2>
@@ -68,123 +66,131 @@
 			</div><!--end id="project"-->
       
 			<!-- Publications -->
-			<div class="content" id="publications"><h2>Publications 
-			<a href="https://scholar.google.fi/citations?user=6n-ELeoAAAAJ&hl=en"><font size="-0">(Google Scholar)</font></a></h2>
-				<div class="content" id="cvv"><h3>Connected Vehicular Vision</h3><ul>
-					<div id="section_flush_right">
-					<img src="./papers/pic/eavve1.png" width="220" />
-					</div> <!--end id="section_flush_right"-->
-					<li>
-					<div class="publication"><b>Edge-facilitated Augmented Vision in Vehicle-to-Everything Networks</b>
-					<div class="authors">IEEE TVT 2020 (IF: 5.339)</div>
-					<div class="authors">Pengyuan Zhou, Tristan Braud, Aleksandr Zavodovski, Zhi Liu, Xianfu Chen, Pan Hui and Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="./papers/tvt_eavve.pdf">[Paper]</a></div>
-					</div>
-					</li>	
-				
-					<li>
-					<div class="publication"><b>Enhanced Augmented Reality Applications in Vehicle to Edge Networks</b>
-					<div class="authors">IEEE ICIN 2019.</div>
-					<div class="authors">Pengyuan Zhou, Wenxiao Zhang, Tristan Braud, Pan Hui and Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="./papers/enhanced.pdf">[Paper]</a>
-					<a target="_blank" href="./papers/ppt/icin.pdf">[Slides]</a>
-					<a target="_blank" href="https://youtu.be/OCvmMErTXIs">[Demo]</a></div>
-					</div>
-					</li>
-				
-					<li>
-					<div class="publication"><b>ARVE: Augmented Reality Applications in Vehicle to Edge Networks</b>
-					<div class="authors">MECOMM@ACM SIGCOMM 2018.</div>
-					<div class="authors">Pengyuan Zhou, Wenxiao Zhang, Tristan Braud, Pan Hui and Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="./papers/arve.pdf">[Paper]</a>
-					<a target="_blank" href="./papers/ppt/arve.pdf">[Slides]</a></div>
-					</div>
-					</li>
+			<div class="content" id="publications"><h2>Publications  <a href="https://scholar.google.fi/citations?user=6n-ELeoAAAAJ&hl=en"><font size="-0">(Google Scholar)</font></a></h2>
+        <div class="pub_nav">
+          <table id = "pub_table">
+            <tr><td class = "pub_sep" colspan="2"></td></tr>
 
-				</ul></div><!--end id="cvv"-->
-				<div class="content" id="xr"><h3>Mobile XR</h3><ul>
-					<div id="section_flush_right">
-					<img src="./papers/pic/percom20.jpg" width="220" />
-					</div> <!--end id="section_flush_right"-->
-					<li>
-					<div class="publication"><b>Multipath Computation Offloading for Mobile Augmented Reality</b>
-					<div class="authors">IEEE PERCOM 2020. (acceptance rate 14.2%) </div>
-					<div class="authors">Tristan Braud, Pengyuan Zhou, Jussi Kangasharju and Pan Hui</div>
-					<div class="item"><a target="_blank" href="./papers/percom2020_multipath.pdf">[Paper]</a>
-					<a target="_blank" href="https://github.com/pengyuan-zhou/MP-Offload-to-Edge">[Code]</a>
-					<a target="_blank" href="https://youtu.be/V4um2N_RgZU">[Demo]</a></div>					
-					</div>
-					</li>
-				</ul></div><!--end id="xr"-->
-				<div class="content" id="smart"><h3>Smart City</h3><ul>
-					<li>
-					<div id="section_flush_right">
-					<img src="./papers/pic/tits1.png" width="230" />
-					</div> <!--end id="section_flush_right"-->
-					<div class="publication"><b>﻿Decentralized Reinforcement Learning at the Edge for Traffic Light Control </b>
-					<div class="authors">IEEE TITS 2020 (in revision) (IF: 6.319) </div>
-					<div class="authors">Pengyuan Zhou, Xianfu Chen, Zhi Liu, Tristan Braud, Pan Hui and Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" >[Paper]</a>
-					<a target="_blank" href="https://youtu.be/p2sMtN_mW8s">[Demo]</a>
-					</div>
-					</div>
-					</li>	
-			
-					<li>
-					<div class="publication"><b>ERL: Edge Based Reinforcement Learning for Optimized Urban Traffic Light Control</b>
-					<div class="authors">SmartEdge@IEEE PERCOM 2019.</div>
-					<div class="authors">Pengyuan Zhou, Tristan Braud, Ahmad Alhilal, Pan Hui and Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="./papers/erl.pdf">[Paper]</a>
-					<a target="_blank" href="./papers/ppt/erl.pdf">[Slides]</a></div>
-					</div>
-					</li>
-				</ul></div><!--end id="smart"-->
-				<div class="content" id="edge"><h3>Edge Resource</h3><ul>
-					<li>
-					<div id="section_flush_right">
-					<img src="./papers/pic/decloud.png" width="220" />
-					</div> <!--end id="section_flush_right"-->
-					<div class="publication"><b>Container deployment strategy for edge networking</b>
-					<div class="authors">ACM MECC 2019.</div>
-					<div class="authors">Walter Wong, Aleksandr Zavodovski, Pengyuan Zhou, Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="https://dl.acm.org/doi/pdf/10.1145/3366614.3368101">[Paper]</a></div>
-					</div>
-					</li>
-					<li>
-					<div class="publication"><b>DeCloud: Truthful Decentralized Double Auction for Edge Clouds</b>
-					<div class="authors">IEEE ICDCS 2019.</div>
-					<div class="authors">Aleksandr Zavodovski, Suzan Bayhan, Nitinder Mohan, Pengyuan Zhou, Walter Wong, Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="./papers/decloud.pdf">[Paper]</a>
-					<a target="_blank" href="./papers/ppt/decloud.pdf">[Slides]</a></div>
-					</div>
-					</li>
-					<li>
-					<div class="publication"><b>Anveshak: Placing edge servers in the wild</b>
-					<div class="authors">MECOMM@ACM SIGCOMM 2018.</div>
-					<div class="authors">Nitinder Mohan, Aleksandr Zavodovski, Pengyuan Zhou, Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="./papers/anveshak.pdf">[Paper]</a>
-					<a target="_blank" href="./papers/ppt/anveshak.pdf">[Slides]</a></div>
-					</div>
-					</li>
-					<li>
-					<div class="publication"><b>Managing Data in Computational Edge Clouds</b>
-					<div class="authors">MECOMM@ACM SIGCOMM 2017.</div>
-					<div class="authors">Nitinder Mohan, Pengyuan Zhou, Keerthana Govindaraj, and Jussi Kangasharju:</div>
-					<div class="item"><a target="_blank" href="./papers/manage.pdf">[Paper]</a>
-					<a target="_blank" href="./papers/ppt/mecomm17.pdf">[Slides]</a>
-					<a target="_blank" href="https://github.com/pengyuan-zhou/icarus/tree/Mecomm17">[Code]</a></div>
-					</div>
-					</li>
-					<li>
-					<div class="publication"><b>Profiling and Grouping Users to Edge Resources According to User Interest Similarity</b>
-					<div class="authors">CAN@ACM CoNEXT 2016.</div>
-					<div class="authors">Pengyuan Zhou, Jussi Kangasharju</div>
-					<div class="item"><a target="_blank" href="./papers/can.pdf">[Paper]</a>
-					<a target="_blank" href="./papers/ppt/can.pdf">[Slides]</a>
-					<a target="_blank" href="https://github.com/pengyuan-zhou/icarus/tree/CAN">[Code]</a></div>
-					</div>
-					</li>
-				</ul></div><!--end id="edge"-->
+              <tr><td class = "pub_conf">TITS20</td>
+                <td>
+                <span class="pub_title">Decentralized Reinforcement Learning at the Edge for Traffic Light Control</span>
+                <a href="https://arxiv.org/pdf/2009.01502.pdf"><img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/></a><br />
+                <span class="pub_authors">Pengyuan Zhou, Xianfu Chen, Zhi Liu, Tristan Braud, Pan Hui and Jussi Kangasharju</span><br />
+                In IEEE Transactions on Intelligent Transportation Systems (accepted), 2020.
+                </td></tr>
+
+              <tr><td class = "pub_conf">TVT20</td>
+                <td>
+                  <span class="pub_title">Edge-facilitated Augmented Vision in Vehicle-to-Everything Networks</span>
+                  <a href="./papers/tvt_eavve.pdf"><img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/></a><br />
+                  <span class="pub_authors">Pengyuan Zhou, Tristan Braud, Aleksandr Zavodovski, Zhi Liu, Xianfu Chen, Pan Hui and Jussi Kangasharju</span><br />
+                  In IEEE Transactions on Vehicular Technology, 2020.
+                </td></tr>
+
+              <tr><td class = "pub_conf">PERCOM20</td>
+                <td>
+                  <span class="pub_title">Multipath Computation Offloading for Mobile Augmented Reality</span>
+                  <a href="./papers/percom2020_multipath.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a>
+                  <a href="https://github.com/pengyuan-zhou/MP-Offload-to-Edge">
+                    <img class = "pub_icon_pdf" alt = "code" style="border:0;" src="images/github.png"/>
+                  </a><br />
+                  <span class="pub_authors">Tristan Braud, Pengyuan Zhou, Jussi Kangasharju and Pan Hui</span><br />
+                  In IEEE International Conference on Pervasive Computing and Communications, 2020 (acceptance rate 14.2%).
+                </td></tr>
+
+              <tr><td class = "pub_conf">ICC20</td>
+                <td>
+                  <span class="pub_title">Bricklayer: Resource Composition on the Spot Market</span>
+                  <a href="https://ieeexplore.ieee.org/document/9149218">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Walter Wong; Lorenzo Corneo; Aleksandr Zavodovski; Pengyuan Zhou; Nitinder Mohan; Jussi Kangasharju</span><br />
+                  In IEEE International Conference on Communications, 2020.
+                </td></tr>
+
+              <tr><td class = "pub_conf">ICDCS19</td>
+                <td>
+                  <span class="pub_title">DeCloud: Truthful Decentralized Double Auction for Edge Clouds</span>
+                  <a href="./papers/decloud.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Aleksandr Zavodovski, Suzan Bayhan, Nitinder Mohan, Pengyuan Zhou, Walter Wong, Jussi Kangasharju</span><br />
+                  In IEEE International Conference on Distributed Computing Systems, 2019.
+                </td></tr>
+
+              <tr><td class = "pub_conf">ICIN19</td>
+                <td>
+                  <span class="pub_title">Enhanced Augmented Reality Applications in Vehicle to Edge Networks</span>
+                  <a href="./papers/enhanced.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Pengyuan Zhou, Wenxiao Zhang, Tristan Braud, Pan Hui and Jussi Kangasharju</span><br />
+                  In 22nd Conference on Innovations in Cloud, Internet and Networks, 2019.
+                </td></tr>
+
+              <tr><td class = "pub_conf">SmartEdge19</td>
+                <td>
+                  <span class="pub_title">ERL: Edge Based Reinforcement Learning for Optimized Urban Traffic Light Control</span>
+                  <a href="./papers/erl.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Pengyuan Zhou, Tristan Braud, Ahmad Alhilal, Pan Hui and Jussi Kangasharju</span><br />
+                  In IEEE International Workshop on Smart Edge Computing and Networking (PERCOM), 2019.
+                </td></tr>
+
+              <tr><td class = "pub_conf">MECC19</td>
+                <td>
+                  <span class="pub_title">Container deployment strategy for edge networking</span>
+                  <a href="./papers/erl.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Walter Wong, Aleksandr Zavodovski, Pengyuan Zhou, Jussi Kangasharju</span><br />
+                  In ACM 4th Workshop on Middleware for Edge Clouds & Cloudlets (Middleware), 2019.
+                </td></tr>
+          
+              <tr><td class = "pub_conf">MECOMM18</td>
+                <td>
+                  <span class="pub_title">ARVE: Augmented Reality Applications in Vehicle to Edge Networks</span>
+                  <a href="./papers/arve.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Pengyuan Zhou, Wenxiao Zhang, Tristan Braud, Pan Hui and Jussi Kangasharju</span><br />
+                  In ACM Workshop on Mobile Edge Communications (SIGCOMM), 2018.
+                </td></tr>
+        
+              <tr><td class = "pub_conf">MECOMM18</td>
+                <td>
+                  <span class="pub_title">Anveshak: Placing edge servers in the wild</span>
+                  <a href="./papers/anveshak.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Nitinder Mohan, Aleksandr Zavodovski, Pengyuan Zhou, Jussi Kangasharju</span><br />
+                  In ACM Workshop on Mobile Edge Communications (SIGCOMM), 2018.
+                </td></tr>
+
+              <tr><td class = "pub_conf">MECOMM17</td>
+                <td>
+                  <span class="pub_title">Managing Data in Computational Edge Clouds</span>
+                  <a href="./papers/manage.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Nitinder Mohan, Pengyuan Zhou, Keerthana Govindaraj, and Jussi Kangasharju</span><br />
+                  In ACM Workshop on Mobile Edge Communications (SIGCOMM), 2017.
+                </td></tr>
+
+              <tr><td class = "pub_conf">CAN16</td>
+                <td>
+                  <span class="pub_title">Profiling and Grouping Users to Edge Resources According to User Interest Similarity</span>
+                  <a href="./papers/can.pdf">
+                    <img class = "pub_icon_pdf" alt = "download" style="border:0;" src="images/icon_pdf.png"/>
+                  </a><br />
+                  <span class="pub_authors">Pengyuan Zhou, Jussi Kangasharju</span><br />
+                  In ACM Workshop on Cloud-Assisted Networking (CoNEXT), 2016.
+                </td></tr>          
+          </table>
+        </div>
 			</div><!--end id="publication"-->
 			<!-- code 
 			<div class="content" id="code"><h2>Codes</h2>
@@ -252,50 +258,6 @@
 				</li>
 				</ul>
 			</div> --> <!--end id="service"-->
-
-			<!-- Education -->
-			<div class="content" id="education"><h2>Education</h2>
-				<ul>
-				<li>
-				<div class="degree">Doctorate Degree
-				<div class="school">Department of Computer Science, University of Helsinki, Finland. May 2020</div>
-				</div>
-				</li>
-				<li>
-				<div class="degree">Master Degree
-				<div class="school">Department of Electrical Engineering, University of Science and Technology Beijing, China. Jan. 2015</div>
-				</div>
-				</li>
-				<li>
-				<div class="degree">Bachelor Degree
-				<div class="school">Department of Intelligent Engineering, University of Science and Technology Beijing, China. July 2011</div>
-				</div>
-				</li>
-				</ul>
-			</div><!--end id="education"-->
-
-			<div class="content" id="miscellaneous"><h2>Miscellaneous</h2>
-				<ul>
-				<li>
-				<div class="miscitem">Bricklayer: Resource Composition on the Spot Market
-				<div class="event">IEEE ICC, Dublin Ireland, June 2020</div>
-				</li>
-				<li>
-				<div class="miscitem">User Oriented Demand-Side Management in Smart Grid
-				<div class="event">IEICE Society Conference, Sendai Japan, September 2015</div>
-				</li>
-				</ul>
-			</div>
-			
-			<div class="content" id="miscellaneous"><h2>Life</h2>
-				<ul>
-				<li>
-				<div class="miscitem"><a href="art.html">My family</a></div>
-				</li>
-				</ul>
-			</div>
-			
-			
 			
 
   </body>

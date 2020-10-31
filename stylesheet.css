@@ -12,6 +12,7 @@ margin-right: auto;
 padding: 10px;
 /*border: 1px solid #dddddd;*/
 box-shadow: 0px 0px 5px #888888;
+text-align:left;
 /*background: #F8F9F9;*/
 }
 
@@ -128,12 +129,16 @@ text-align:center;
 overflow: hidden;
 font-size: 1em;
 }
-
+div.pub_nav {
+	text-align:left;
+}
 .content {
 clear: both;
 /*background: #dddddd;*/
 margin-top: 20px;
 margin-bottom: 50px;
+text-align:left;
+line-height:160%;
 }
 
 .content > h2 {
@@ -141,12 +146,38 @@ margin-bottom: 10px;
 color: #000000;
 border-bottom: 1px solid #aaaaaa;
 }
-
+ 
 #about > p {
 margin-bottom: 0.5em;
 text-indent: 1em;
 }
 
+#pub_table td {
+	vertical-align:top;
+}
+
+td.pub_sep {	
+	text-align:left;
+	height: 50px;
+	line-height: 50px;
+}
+td.pub_conf {
+	color: maroon;
+	vertical-align:top;
+	width: 100px;
+  text-align:left;
+  font-weight:bold;	
+	/*line-height: 14px;*/
+}
+span.pub_title {
+	font-weight:bold;	
+}
+span.pub_authors {
+	font-style:italic;
+}
+img.pub_icon_pdf {
+	margin-left:5px
+}
 .publication {
 margin-bottom: 0.8em;
 }
@@ -197,7 +228,7 @@ margin: 2px;
 
 
 a:link, a:visited {
-color: #007399;
+color: maroon;
 font-weight:500;
 font-style:italic;
 text-decoration: underline;
