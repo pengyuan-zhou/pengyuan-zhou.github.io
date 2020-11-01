@@ -121,8 +121,7 @@ text-align:center;
 
 @media screen and (max-width:500px) {
     #container img {
-        width:200px;
-        height:133px;
+      max-width: 100%;
     }
 }
 #header {
@@ -176,7 +175,8 @@ span.pub_authors {
 	font-style:italic;
 }
 img.pub_icon_pdf {
-	margin-left:5px
+  margin-left:5px;
+  max-width: 100%;
 }
 .publication {
 margin-bottom: 0.8em;
