@@ -160,6 +160,15 @@ td.pub_sep {
 	height: 50px;
 	line-height: 50px;
 }
+td.pub_year {
+	color: navy;
+	vertical-align:top;
+	width: 100px;
+  text-align:left;
+  font-weight:bold;	
+  font-size: large;
+	/*line-height: 14px;*/
+}
 td.pub_conf {
 	color: maroon;
 	vertical-align:top;
