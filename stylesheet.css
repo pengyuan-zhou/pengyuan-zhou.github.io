@@ -29,6 +29,49 @@ box-shadow: 5px 5px 5px #aaaaaa;
 /*border: 1px solid #444444;*/
 }
 
+#navbar {
+  overflow: hidden;
+  background-color: #283747;
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the current/active link */
+.navbar a.active {
+  background-color: #04AA6D;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+
 #heading {
 font-weight: bold;
 font-size: 1.6em;
@@ -140,8 +183,9 @@ text-align:center;
 overflow: hidden;
 font-size: 1em;
 }
-div.pub_nav {
+div.x_nav {
 	text-align:left;
+    margin-left: 15px;
 }
 .content {
 clear: both;
@@ -169,14 +213,16 @@ margin-bottom: 0.5em;
 text-indent: 1em;
 }
 
+
+
 #pub_table td {
 	vertical-align:top;
 }
 
 td.pub_sep {	
 	text-align:left;
-	height: 50px;
-	line-height: 50px;
+	height: 10px;
+	line-height: 20px;
 }
 td.pub_year {
 	color: navy;
